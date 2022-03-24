@@ -111,11 +111,11 @@ public abstract class Snapshot {
      */
     public abstract double getStdDev();
 
-    /**
-     * Writes the values of the snapshot to the given stream.
-     *
-     * @param output an output stream
-     */
-    public abstract void dump(OutputStream output);
+//    /**
+//     * Writes the values of the snapshot to the given stream.
+//     *
+//     * @param output an output stream
+//     */
+//    public abstract void dump(OutputStream output);
 
 }

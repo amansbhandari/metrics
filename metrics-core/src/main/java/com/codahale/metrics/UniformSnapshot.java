@@ -166,7 +166,7 @@ public class UniformSnapshot extends Snapshot {
      *
      * @param output an output stream
      */
-    @Override
+    //@Override
     public void dump(OutputStream output) {
         try (PrintWriter out = new PrintWriter(new OutputStreamWriter(output, UTF_8))) {
             for (long value : values) {

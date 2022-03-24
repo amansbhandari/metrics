@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.offset;
 
 public class UniformSnapshotTest {
-    private final Snapshot snapshot = new UniformSnapshot(new long[]{5, 1, 2, 3, 4});
+    private final UniformSnapshot snapshot = new UniformSnapshot(new long[]{5, 1, 2, 3, 4});
 
     @Test
     public void smallQuantilesAreTheFirstValue() {

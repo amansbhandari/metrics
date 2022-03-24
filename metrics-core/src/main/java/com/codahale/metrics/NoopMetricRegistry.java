@@ -345,10 +345,10 @@ public final class NoopMetricRegistry extends MetricRegistry {
         /**
          * {@inheritDoc}
          */
-        @Override
-        public void dump(OutputStream output) {
-            // NOP
-        }
+//        @Override
+//        public void dump(OutputStream output) {
+//            // NOP
+//        }
     }
 
     static final class NoopTimer extends Timer {

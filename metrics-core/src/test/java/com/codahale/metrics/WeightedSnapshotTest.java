@@ -29,7 +29,7 @@ public class WeightedSnapshotTest {
         return samples;
     }
 
-    private final Snapshot snapshot = new WeightedSnapshot(
+    private final WeightedSnapshot snapshot = new WeightedSnapshot(
             weightedArray(new long[]{5, 1, 2, 3, 4}, new double[]{1, 2, 3, 2, 2}));
 
     @Test
